@@ -1,4 +1,4 @@
-# 
+# Chapter 1:  
 
 **Abstract:** Chapter 1, revolves around the concept of *graph thinking*: What it is, what context it came from and finally the future of it. Graph thinking is essentially the idea of being able to analyze whether a problem is solvable with graph-theory. This sounds like a banal point, but my interpretation of the point that the authors are trying to make, is that this the practitioner also needs to have a intuition for when it is usable. However, because most Systems Architects and more recently Data Engineers are accustomed to thinking mainly in relational-structures and data-bases, they often miss the obvious places where a graph database would excel instead.
 
@@ -21,3 +21,32 @@ NoSQL databases like Key-Value etc. had a focus on handling web data, because of
 | Collections of files or documents | Hierachical or nested     |   Root identified by an id  | Document databases      |
 | Relationships or links            | Graph                     |    Queried by a pattern     | Graph Database          | 
 
+# Chapter 2: 
+
+**Abstract:** This chapter portrays the main difference in terminology between relational databases and graph databases. The difference can be suddle in terms of the real world relations between objects, but in terms of mathematical operations that they are optimized for there is a big difference, because relational databases has been architectured on relational algebra, whereas graph databases has been designed on graph theory.
+
+
+| Mathematical Operations| Relational Database       | Graph Database           | 
+|:-----------------------|:-------------------------:|-------------------------:|
+| Matchematical Field    | Relational Algebra        |  Graph Theory            |
+| Data Modeling Langauge | UML / ERD's               | Graph Schema Language    |
+|                        |                           |                          |
+
+
+
+**Relational Data Modeling**    
+
+# Chapter 3:
+
+**Abstract:** Chapter 3, is a tutorial in the difference between designing a relational database and a graph database. The original example, is a Customer 360-data relation, but rather than copy pasting their example into my notes, I will instead use an example based on the relations that occur in a match of the computer game *Counter Strike Global Offensive* (Henceforth CSGO).
+
+
+Relational tools are not well suited for delivering certain shapes of data, specifically, deeply connected data.
+
+A C360 project is to engineer an application around the relationships between the important entities in your business.
+
+## Data Models:
+
+    **Entity Relation Diagram:**
+
+    
