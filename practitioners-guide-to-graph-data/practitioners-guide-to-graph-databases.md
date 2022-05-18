@@ -40,7 +40,6 @@ NoSQL databases like Key-Value etc. had a focus on handling web data, because of
 
 **Abstract:** Chapter 3, is a tutorial in the difference between designing a relational database and a graph database. The original example, is a Customer 360-data relation, but rather than copy pasting their example into my notes, I will instead use an example based on the relations that occur in a match of the computer game *Counter Strike Global Offensive* (Henceforth CSGO).
 
-
 Relational tools are not well suited for delivering certain shapes of data, specifically, deeply connected data.
 
 A C360 project is to engineer an application around the relationships between the important entities in your business.
@@ -49,4 +48,5 @@ A C360 project is to engineer an application around the relationships between th
 
     **Entity Relation Diagram:**
 
+    
     
